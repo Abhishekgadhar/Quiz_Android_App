@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".certificate"
+    android:background="@drawable/certificatebackground">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/top_left" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text=" Certificate of Achievement"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+
+        android:layout_centerInParent="true"
+
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:padding="18dp"
+        android:text="       This is to certify that"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:hint="Recipient's Name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="has sucessfully  achieved the highest honor in the field of"
+        android:textSize="18sp"
+        android:paddingLeft="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:text="Android Development "
+        android:textColor="@color/white"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:paddingLeft="12dp"
+        android:text="@string/this_course_was_held_for_a_duration_of_1_month_from_6_october_2023_to_4th_november_2023"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/certificatelogo" />
+
+
+
+</RelativeLayout>

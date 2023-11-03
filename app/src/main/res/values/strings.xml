@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- TODO Change your application name-->
+    <string name="app_name">OnlineQuizAppAdmob</string>
+
+    <!-- TODO Your Firebase Realtime Database URL-->
+    <string name="firebase_database_url">https://quizappadmob-890d6-default-rtdb.firebaseio.com/</string>
+
+    <!-- TODO Use your admob app id-->
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <!-- TODO Use your admob banner ad unit id-->
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- TODO Use your admob interstitial ad unit id-->
+    <string name="interstitial_ad">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="this_course_was_held_for_a_duration_of_1_month_from_6_october_2023_to_4th_november_2023">This course was held for a duration of 1 month from 6 October 2023 to 4th November 2023</string>
+
+</resources>

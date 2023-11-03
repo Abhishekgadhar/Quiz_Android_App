@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "265072155370",
+    "project_id": "quizappadmob",
+    "storage_bucket": "quizappadmob.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265072155370:android:156f097c958a98e324d593",
+        "android_client_info": {
+          "package_name": "com.learnoset.onlinequizappadmob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265072155370-q07tpdnpdcinqmpidtslool58bjebnmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learnoset.onlinequizappadmob",
+            "certificate_hash": "ce5dbf10dd6cb3a8952c3fde991ee53a45caa940"
+          }
+        },
+        {
+          "client_id": "265072155370-dtlab4ditl9m60qcu6i3nuaa10o4uotv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCwpwkF9KOQQ5zDw3KwvTIaogbo3AVwws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265072155370-dtlab4ditl9m60qcu6i3nuaa10o4uotv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
